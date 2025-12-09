@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  height: 48px;
+}
+
+.lang-item {
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+.sticky-menu {
+  position: sticky;
+  padding: 16px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bar .nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar .nav-list li a {
+  color: black;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.cta-btn {
+  /* background-color: ; */
+}
+
+.main-section .service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.main-section .service .service-list {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 16px;
+  gap: 8px;
+}
+
+.main-plan {
+  background-color: rgb(253 233 197);
+  padding: 50px 0;
+  margin: auto;
+}
+
+.main-plan h2 {
+  margin-bottom: 10px;
+}
+
+.main-plan .plan-tab {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 16px;
+}
+
+.main-plan .plan-tab li {
+    padding: 8px;
+    color: #ff7900;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .main-plan {
+    padding: 50px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+}
